@@ -9,6 +9,7 @@
 #include <Arduino.h>
 
 #include "log_service.h"
+#include "wifi_service.h"
 
 
 /* ==================================================
@@ -20,6 +21,7 @@
 void setup() 
 {
   Log_init();
+  WiFi_init();
 }
 
 
